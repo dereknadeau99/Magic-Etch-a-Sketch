@@ -1,13 +1,9 @@
-## TODO add comments to code, beef up the readme, add gifs of it working
-
-# TP_EAS
+# Magic Etch-a-Sketch
 
 Algorithms Implemented:
   Canny Edge Detection for image preprocessing and initial edge detection
   Sobel Operator for image edge Detection
   Bresenham's line algorithm for plotting which pixels to draw in an X,Y coordinate system to create a smooth line between two points.
-
-### From Devpost:
 
 ## Inspiration
 A modern, technical twist on one of our favorite childhood games.
@@ -23,16 +19,13 @@ We wrote an algorithm inside of the Image_Detection.py file to read in the png f
 We also 3D printed pieces to hold our stepper motors onto the knobs of the Etch a Sketch.
 
 ## Challenges we ran into
-
 Our edge detection algorithm was one of the hardest software pieces to complete. The problem of attaching the motors to the Etch a Sketch knobs was our biggest hardware problem, which I was able to remedy by using a 3D part library that had pieces for our model of the stepper motors. Printing them took over 3 hours, which was a big time sacrifice, but ended up working in our favor.
 
 ## Accomplishments that we are proud of
-
 Being able to efficiently print all four of our 3D pieces in one print, since I had not used a 3D printer in over four years.
 Our Image Processing and Line Detection algorithms were our biggest software accomplishments. We are also very proud of our resourcefulness in using scrap parts to put together the hardware pieces in a way that moves the Etch a Sketch knobs in a controlled manner.  
 
 ## What we learned
-
 We all learned a lot about python development and image processing. We also learned how to make sperate systems (python and Arduino) communicate over a serial channel. And lastly, that the power of friendship can allow you to accomplish anything :)
 
 ## What's next for Magic Etch a Sketch
